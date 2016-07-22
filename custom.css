@@ -1,0 +1,81 @@
+.navbar {
+    background-color: #1b6d85;
+}
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Animation*/
+.divanimation {
+    color:white;
+    width:260px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom:20px;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:#001380; left:250px; top:0px;}
+    50%  {background-color:blue; left:250px; top:250px;}
+    75%  {background-color:green; left:0px; top:250px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:#001380; left:250px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:250px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/*End*/
+
+/*image for about*/
+.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container_img {
+    text-align: center;
+    padding: 10px 20px;
+}
+/*End*/
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
