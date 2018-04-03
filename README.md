@@ -2,4 +2,4 @@
 
 Dynamic Web Development Final Project - Ice Cream Database
 
-http://ict475-chengan.azurewebsites.net/Project/
+http://ict475-chengan.azurewebsites.net/Project/  (Not Actived Anymore)
